@@ -1,0 +1,94 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.typePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  border: none;
+  background: var(--bg-dim);
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  overflow: hidden;
+  transition: opacity 0.15s, transform 0.1s;
+}
+.typePill:hover { transform: translateY(-1px); }
+:global(.light) .typePill { background: var(--bg); }
+.typePill.inactive {
+  opacity: 0.35;
+  filter: saturate(0.5);
+}
+.pillText {
+  padding: 5px 10px;
+  color: var(--c-text);
+  text-transform: uppercase;
+}
+.pillCount {
+  padding: 5px 10px;
+  background: var(--bg-dark);
+  color: white;
+  font-variant-numeric: tabular-nums;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--c-muted);
+}
+.thresholdRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.thresholdRow input[type="range"] { width: 140px; }
+.thresholdValue {
+  min-width: 36px;
+  font-variant-numeric: tabular-nums;
+  color: var(--c-text);
+}
+.totalCount strong { color: var(--c-text); }
+.exportBtn {
+  margin-left: auto;
+  padding: 6px 12px;
+  background: var(--c-panel);
+  color: var(--c-text);
+  border: 1px solid var(--c-border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.exportBtn:hover { background: var(--c-surface); }
+
+.output {
+  background: var(--c-panel);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 2;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  min-height: 200px;
+}
+.empty {
+  color: var(--c-muted);
+  font-style: italic;
+  font-size: 14px;
+}

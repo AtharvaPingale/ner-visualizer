@@ -1,0 +1,19 @@
+.wrap {
+  margin-top: 12px;
+}
+.bar {
+  height: 6px;
+  background: var(--c-border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  background: var(--c-accent);
+  transition: width 0.15s ease;
+}
+.label {
+  font-size: 11px;
+  color: var(--c-muted);
+  margin-top: 4px;
+}

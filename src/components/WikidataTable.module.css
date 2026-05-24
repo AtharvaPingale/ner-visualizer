@@ -1,0 +1,44 @@
+.panel {
+  background: var(--c-panel);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 4px 16px;
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.table th, .table td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--c-border-soft);
+  vertical-align: top;
+}
+.table tr:last-child td { border-bottom: none; }
+.table th {
+  font-weight: 600;
+  color: var(--c-muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.table a { color: var(--c-accent); text-decoration: none; }
+.table a:hover { text-decoration: underline; }
+.empty { color: var(--c-muted); font-style: italic; padding: 16px 8px; }
+.pending { color: var(--c-muted); font-style: italic; }
+.nomatch { color: var(--c-muted); font-style: italic; }
+
+.typeBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: var(--bg-dark);
+  color: white;
+}

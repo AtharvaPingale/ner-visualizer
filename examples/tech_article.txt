@@ -1,0 +1,5 @@
+Google announced a sweeping partnership with OpenAI and Microsoft to standardize safety benchmarks for frontier AI models. The Mountain View company will collaborate with Anthropic, Meta, and Amazon on a shared evaluation framework intended for use across the industry.
+
+The initiative, coordinated through the Frontier Model Forum, includes contributions from researchers at Stanford, MIT, and Carnegie Mellon University. Apple and IBM declined initial participation, though Apple later confirmed it had joined discussions with the National Institute of Standards and Technology in Washington.
+
+In other moves, Nvidia acquired a small startup based in San Francisco that builds inference tooling, while Salesforce expanded its partnership with Hugging Face. Oracle and SAP announced joint cloud offerings targeting customers across the European Union. Cisco, Intel, and AMD also indicated they would back the new benchmark suite.

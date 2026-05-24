@@ -1,0 +1,45 @@
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+@media (max-width: 768px) {
+  .heading { font-size: 26px; }
+}
+
+.themeToggle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggleBtn {
+  background: var(--c-panel);
+  color: var(--c-text-soft);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.toggleBtn:hover {
+  background: var(--c-surface);
+  color: var(--c-text);
+}
